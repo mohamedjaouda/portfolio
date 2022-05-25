@@ -120,6 +120,10 @@ input::placeholder {
     color: #ffffff48;
 }
 
+textarea::placeholder {
+    color: #ffffff48;
+}
+
 #hero {
     font-weight:700;
     font-family: 'Habibi';

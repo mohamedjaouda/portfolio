@@ -58,9 +58,8 @@ const Contact = () => {
               placeholder="Email Address"
               autoComplete="off"
             />
-            <input
+            <textarea
               id="message"
-              type="message"
               required
               name="subject"
               className="w-full md:w-[30rem] pb-28 rounded-sm bg-lightWhite pl-5 pt-2 text-white"
@@ -78,7 +77,7 @@ const Contact = () => {
             </button>
 
             {confirm && (
-              <div className="bg-lightWhite w-72 mx-auto p-2 rounded-md text-white text-center flex flex-row justify-center space-x-2 relative top-6">
+              <div className="bg-lightWhite w-max mx-auto p-2 rounded-md text-white text-center flex flex-row justify-center space-x-2 relative top-6">
                 <BsFillCheckCircleFill className="text-green-500 mt-[5px] mr-[5px]" />
                 your message was sent. thank you
               </div>
