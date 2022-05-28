@@ -24,10 +24,17 @@ const Contact = () => {
         (result) => {
           // console.log(result.text);
           setConfirm(true);
+          
+          setTimeout(() => {
+            setConfirm(false);
+          }, 4000);
         },
         (error) => {
           // console.log(error.text);
-          setErorr(true);
+          setErorr(true)
+          setTimeout(() => {
+          setErorr(false);
+          }, 5000);
         }
       );
       e.target.reset()
@@ -77,13 +84,19 @@ const Contact = () => {
             </button>
 
             {confirm && (
-              <div className="bg-lightWhite w-max mx-auto p-2 rounded-md text-white text-center flex flex-row justify-center space-x-2 relative top-6">
+              <div
+                id="modal"
+                className=" bg-lightWhite animate-pulse w-max mx-auto p-2 rounded-md text-white text-center flex flex-row justify-center space-x-2 relative top-6"
+              >
                 <BsFillCheckCircleFill className="text-green-500 mt-[5px] mr-[5px]" />
                 your message was sent. thank you
               </div>
             )}
             {error && (
-              <div className="bg-lightRed w-72 mx-auto p-2 rounded-md text-white text-center flex flex-row justify-center space-x-2">
+              <div
+                id="modal"
+                className="bg-lightRed animate-pulse w-max mx-auto p-2 rounded-md text-white text-center flex flex-row justify-center space-x-2 relative top-6"
+              >
                 An Erorr occurred, Please try again.
               </div>
             )}

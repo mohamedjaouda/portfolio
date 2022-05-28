@@ -11,7 +11,6 @@
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
-  /* display: none; */
 }
 
 /* Track */
@@ -103,7 +102,7 @@ footer {
     background: #000000;
 }
 
-input {
+input, textarea {
     outline: none;
         box-shadow: 0px 0px 3px 0px #1d1d1d;
 }
@@ -111,16 +110,12 @@ input {
 input:focus {
     box-shadow: 0 0 0 2px #2357a5;
 }
-
-input:active {
-    background: rgb(255, 255, 255, 7%);
+ 
+textarea:focus {
+    box-shadow: 0 0 0 2px #2357a5;
 }
 
-input::placeholder {
-    color: #ffffff48;
-}
-
-textarea::placeholder {
+input, textarea ::placeholder {
     color: #ffffff48;
 }
 
@@ -131,7 +126,7 @@ textarea::placeholder {
 
 #about {
     line-height: 1.2em;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 #techs {

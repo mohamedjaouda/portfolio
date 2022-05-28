@@ -18,7 +18,7 @@ const Work = () => {
               <h5 className="text-white font-bold text-lg tracking-wide">
                 LANDING PAGE DESIGN
               </h5>
-              <h6 className="text-white font-thin tracking-wider -mt-[6px]">made with HTML & CSS</h6>
+              <h6 className="text-SecondryText font-normal tracking-wider -mt-[6px]">made with HTML & CSS</h6>
             </div>
           </div>
           <div className="flex flex-col justify-start space-y-1">
@@ -31,7 +31,7 @@ const Work = () => {
               <h5 className="text-white font-bold text-lg tracking-wide">
                 BREAKING BAD API
               </h5>
-              <h6 className="text-white font-thin tracking-wider -mt-[6px]">made with React</h6>
+              <h6 className="text-SecondryText font-normal tracking-wider -mt-[6px]">made with React</h6>
             </div>
           </div>
           <div className="flex flex-col justify-start space-y-1">
@@ -44,7 +44,7 @@ const Work = () => {
               <h5 className="text-white font-bold text-lg tracking-wide">
                 LOADING PAGE EFFECT
               </h5>
-              <h6 className="text-white font-thin tracking-wider -mt-[6px]">made with Vanilla JavaScript</h6>
+              <h6 className="text-SecondryText font-normal tracking-wider -mt-[6px]">made with Vanilla JavaScript</h6>
             </div>
           </div>
           <div className="flex flex-col justify-start space-y-1">
@@ -57,7 +57,7 @@ const Work = () => {
               <h5 className="text-white font-bold text-lg tracking-wide">
                 STARBUCKS LANDING PAGE
               </h5>
-              <h6 className="text-white font-thin tracking-wider -mt-[6px]">made with React & sass</h6>
+              <h6 className="text-SecondryText font-normal tracking-wider -mt-[6px]">made with React & sass</h6>
             </div>
           </div>
           <div className="flex flex-col justify-start space-y-1">
@@ -70,7 +70,7 @@ const Work = () => {
               <h5 className="text-white font-bold text-lg tracking-wide">
                 LINK TREE
               </h5>
-              <h6 className="text-white font-thin tracking-wider -mt-[6px]">made with HTML & CSS</h6>
+              <h6 className="text-SecondryText font-normal tracking-wider -mt-[6px]">made with HTML & CSS</h6>
             </div>
           </div>
           <div className="flex flex-col justify-start space-y-1">
@@ -83,7 +83,7 @@ const Work = () => {
               <h5 className="text-white font-bold text-lg tracking-wide">
                 FIREBASE GALLERY
               </h5>
-              <h6 className="text-white font-thin tracking-wider -mt-[6px]">made with react & firebase</h6>
+              <h6 className="text-SecondryText font-normal tracking-wider -mt-[6px]">made with react & firebase</h6>
             </div>
           </div>
         </div>
