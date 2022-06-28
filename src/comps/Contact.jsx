@@ -54,20 +54,19 @@ const Contact = () => {
           </h1>
           <form
             onSubmit={sendEmail}
-            autoComplete="off"
             className=" mx-auto w-full md:w-auto flex flex-col space-y-1 justify-center"
           >
             <input
+              required
               type="email"
               name="email"
-              required
               className="w-full md:w-[30rem] h-10 rounded-sm bg-lightWhite text-white pl-5"
               placeholder="Email Address"
               autoComplete="off"
             />
             <textarea
-              id="message"
               required
+              id="message"
               name="subject"
               className="w-full md:w-[30rem] pb-28 rounded-sm bg-lightWhite pl-5 pt-2 text-white"
               placeholder="Your message"
@@ -119,12 +118,12 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <span className="text-lightText text-sm">
+        <div className="text-lightText text-sm">
           Made & Designed By
           <a href="#" className="hover:text-white">
             @mohammedjaouda
           </a>
-        </span>
+        </div>
       </div>
     </footer>
   );

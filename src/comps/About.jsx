@@ -3,9 +3,9 @@
 const About = () => {
   return (
     <section>
-      <div className="container w-[80%] md:w-[38rem] lg:w-[58rem] mx-auto px-auto flex flex-col justify-center md:space-y-12 sm:space-y-26">
-        <div className="my-28 container w-full flex flex-col justify-center align-middle mx-auto md:space-y-6 space-y-3">
-          <h1 className="flex justify-center lg:hidden text-white text-center text-3xl md:text-5xl font-bold tracking-wider mb-1">
+      <div className="container w-[85%] md:w-[38rem] lg:w-[58rem] mx-auto px-auto flex flex-col justify-center md:space-y-12 sm:space-y-26">
+        <div className="my-20 container w-full flex flex-col justify-center align-middle mx-auto md:space-y-6 space-y-5">
+          <h1 className="flex justify-center lg:hidden text-white text-center text-3xl md:text-5xl font-bold tracking-wider">
             ABOUT ME
           </h1>
           <p id="about" className="text-white font-thin text-4xl text-center">
@@ -18,11 +18,11 @@ const About = () => {
             with latest trends and technolgies.
           </p>
         </div>
-        <div className=" w-fit mx-auto flex flex-col justify-center space-y-10 pb-16">
+        <div className=" w-[17rem] md:w-fit mx-auto flex flex-col justify-center space-y-10 mb-16">
           <h1 className=" text-white text-center text-3xl md:text-5xl font-bold tracking-wider">
             MY TECH STACK
           </h1>
-          <div className="mx-auto grid gap-y-10 md:gap-y-16 grid-cols-2 gap-x-16 md:grid-cols-3 lg:grid-cols-4 place-items-center md:py-8">
+          <div className="m-0 grid gap-y-8 md:gap-y-16 grid-cols-2 gap-x-10 md:grid-cols-3 lg:grid-cols-4 place-items-center md:py-8">
             <div className="flex flex-row space-x-2 items-center">
               <img
                 src="https://res.cloudinary.com/dvqbyum5o/image/upload/v1652714761/html_5_bupbxx.svg"
@@ -83,7 +83,7 @@ const About = () => {
                 TAILWIND
               </h4>
             </div>
-            <div className="flex flex-row space-x-2 w-fit  items-center">
+            <div className="flex flex-row space-x-2 w-fit mx-auto items-center">
               <img
                 src="https://res.cloudinary.com/dvqbyum5o/image/upload/v1652714762/bootstrap-logo_1_hdbsub.svg"
                 alt=""

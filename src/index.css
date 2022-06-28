@@ -3,32 +3,30 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 
 
 
 /* width */
 ::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background-color: #000000ab;
+    background-color: #000000ab;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-  background: rgb(165, 165, 165);
+    background: rgb(165, 165, 165);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-      transition: ease-in-out 0.8s;
-
-  background: rgb(255, 255, 255);
+    transition: ease-in-out 0.8s;
+    background: rgb(255, 255, 255);
 }
 
 html {
@@ -43,56 +41,65 @@ body {
 }
 
 header {
-    background-image: url('https://res.cloudinary.com/dvqbyum5o/image/upload/v1653223414/Frame_21_szy5n1.webp');
+    /* background-image: url('https://res.cloudinary.com/dvqbyum5o/image/upload/v1653223414/Frame_21_szy5n1.webp'); */
+    background-image: url('https://res.cloudinary.com/dvqbyum5o/image/upload/v1656435507/Frame_22_1_xjmqhj.png');
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -50px ;
     background-color: #000000;
 }
+
+/* @media only screen and (max-width: 500px) {
+    header {
+        background-size: 200px;
+        background-position-x: 50px;
+    }
+} */
 /* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     header {
-        height: 400px;
-        background-size: 550px;
-        background-position-x: 60px;
-        background-position-y: 30%;
+        background-size: 600px;
+        background-position-x: 50px;
     }
 }
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     header {
-        background-size: 540px;
-        background-position-x: 220px;
-        background-position-y: 35%;
+        background-size: 600px;
+        background-position-x: 200px;
     }
 }
-
 /* Medium devices (landscape tablets, 768px and up) */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     header {
-        background-position-x: 170px;
-        background-size: 860px;
+        background-size: 850px;
+        background-position-x: 200px;
     }
 }
-
 /* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     header {
-        background-position-x: 140%;
         background-size: 880px;
+        background-position-x: 400px;
     }
 }
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media(min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
     header {
-        background-size: calc(680px, 960px);
-        background-position-x: right ;
+        background-size: 880px;
+        background-position-x: 700px;
     }
 }
-
 @media (max-width: 640px) {
     #about {
-        font-size: 18px;
+        font-size: 16px;
+        color: rgb(228, 228, 228);
+    }
+}
+
+@media (max-width: 340px) {
+    #about {
+        font-size: 14px;
     }
 }
 
@@ -104,7 +111,7 @@ footer {
 
 input, textarea {
     outline: none;
-        box-shadow: 0px 0px 3px 0px #1d1d1d;
+    box-shadow: 0px 0px 3px 0px #1d1d1d;
 }
 
 input:focus {
